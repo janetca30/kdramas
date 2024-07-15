@@ -1,0 +1,58 @@
+.formButton {
+  max-width: 11.258rem;
+  max-height: 3.375rem;
+  width: 100%;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  background: var(--black);
+  border-radius: 10px;
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.newVideoButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  background: transparent;
+  width: 100%;
+  max-width: 35.813rem;
+  font-size: 1.25rem;
+}
+
+.formButton-save {
+  box-shadow: inset 0 0 10px 5px var(--black);
+  filter: brightness(1.3);
+}
+
+.formButton-save,
+.formButton-cancel {
+  color: var(--black);
+  border: 3px solid var(--black);
+  background-color: transparent;
+}
+
+.formButton-cancel:hover,
+.formButton-save:hover {
+  filter: brightness(1.3);
+  color: var(--greenedit);
+  border-color: var(--greenedit);
+}
+
+.formButton:disabled {
+  background-color: var(--black);
+  background: transparent;
+  filter: brightness(0.8);
+  cursor: not-allowed;
+}
+
+/*Responsive-Mobile*/
+
+@media (max-width: 320px) {
+  .newVideoButtons {
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

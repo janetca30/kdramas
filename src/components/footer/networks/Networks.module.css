@@ -1,0 +1,8 @@
+.network {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  width: 85%;
+}

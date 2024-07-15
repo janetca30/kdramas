@@ -1,0 +1,190 @@
+.newVideoContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-white);
+  width: 100%;
+  max-width: 64.75rem;
+  padding: 2rem;
+  margin: 0 auto;
+  gap: 2rem;
+}
+
+.newVideoHeader {
+  text-align: center;
+}
+
+.newVideoTitle {
+  font-size: 4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.newVideoDescription {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  background-color: transparent;
+}
+
+/* FORM */
+.newVideoForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 73.25rem;
+}
+
+.formSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.sectionOne,
+.sectionTwo {
+  flex: 1;
+  margin: 0 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.sectionOne:last-child,
+.sectionTwo:last-child {
+  margin-right: 0;
+}
+
+.sectionOneTitle {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+/* FORM FIELDS */
+.newVideoFormLabel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  margin-bottom: 0.4rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.newVideoFormLabel.errorLabel {
+  color: var(--error);
+}
+
+.newVideoFormInput {
+  margin-top: 0.5rem;
+  width: 600px;
+  padding: 0.8rem;
+  font-size: 1.5rem;
+  border: 3px solid var(--black) !important;
+  border-radius: 20px;
+  background-color: transparent;
+  margin-bottom: 1rem;
+  outline: none;
+  transition: border-color 0.3s ease;
+  min-height: 3.875rem;
+  display: flex;
+  align-items: center;
+  color: var(--black);
+  box-sizing: border-box;
+  resize: none;
+}
+
+.newVideoFormInput::placeholder {
+  color: var(--black);
+}
+
+.newVideoFormList {
+  margin-bottom: 0;
+  overflow-x: visible !important;
+  font-size: 1.5rem;
+}
+
+.newVideo * {
+  overflow-x: initial; 
+}
+
+
+.newVideoDropdownList {
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  color: var(--white);
+  position: relative;
+  background-color: var(--black);
+  margin-top: 0;
+  overflow-x: visible;
+}
+
+.newVideoDropdownList:hover {
+  background-color: var(--bluex);
+  color: var(--white);
+  font-weight: bold;
+}
+
+.newVideoFormInput.error::placeholder {
+  color: var(--error);
+}
+
+.newVideoFormInput.error {
+  border-color: var(--error);
+}
+
+.newVideoFormInput:focus {
+  border-color: var(--white);
+  outline: none;
+}
+
+.errorMessage {
+  color: var(--error)!important;
+  font-size: 1rem;
+  background-color: transparent;
+}
+
+/*Responsive-Mobile*/
+
+@media (max-width: 320px) {
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 320px;
+  }
+  .newVideoTitle {
+    font-size: 2.8rem;
+  }
+  .newVideoDescription {
+    width: 298px;
+    font-size: 1.2rem;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 280px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 320px;
+  }
+  .sectionOneTitle {
+    font-size: 2rem;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 320px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 320px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 290px;
+  }
+}

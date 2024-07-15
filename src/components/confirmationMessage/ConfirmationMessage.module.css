@@ -1,0 +1,60 @@
+.confirmation {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--white);
+  padding: 1rem;
+  border-radius: 12px;
+  z-index: 10000;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  width: clamp(100px, 400vw, 400px);
+  background-color: var(--black);
+}
+
+.message {
+  font-size: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  background-color: var(--black);
+  color: var(--white);
+}
+
+.span {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  background-color: var(--white);
+}
+
+.confirmation button {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.yes {
+  background-color: var(--blue);
+  color: var(--white);
+  border: 1px solid var(--blue);
+}
+
+.yes:hover {
+  background-color: var(--gris);
+  color: var(--blue);
+}
+
+.no {
+  background-color: var(--white);
+  color: var(--gris);
+  border: 1px solid var(--blue);
+}
+
+.no:hover {
+  background-color: var(--gris);
+  color: var(--blue);
+}
+

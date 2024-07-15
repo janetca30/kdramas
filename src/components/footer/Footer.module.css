@@ -1,0 +1,39 @@
+.footer  {
+  display: flex;
+  justify-content:  space-evenly;
+  align-items: center;
+  background-color: var(--footer)
+}
+
+.logo {
+  width: 120px;
+  height: 80px;
+}
+
+.presentation {
+  display: flex;
+  align-items: center;
+}
+
+.footImage {
+  width: 150px;
+}
+
+.presentation span {
+  font-size: 1.4em;
+  font-weight: 700;
+}
+
+/*Responsive-Mobile*/
+
+@media (max-width: 320px) {
+  .footer {
+    width: 320px;
+    height: 280px;
+    flex-direction: column;
+    margin-bottom: 120px;
+  }
+  .presentation span {
+    font-size: 1rem;
+  }
+}

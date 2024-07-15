@@ -1,0 +1,100 @@
+{
+  "videos": [
+    {
+      "id": 1,
+      "title": "Romance",
+      "dorama": "WHAT'S WRONG WITH SECRETARY KIM?",
+      "photo": "https://image.tmdb.org/t/p/w780//zFHplEPtshE3yLagZCzJMPhPJcL.jpg",
+      "link": "https://youtu.be/oUGBsKQaOI0",
+      "chapter": "episode 1"
+    },
+    {
+      "id": 2,
+      "title": "Romance",
+      "dorama": "WHAT'S WRONG WITH SECRETARY KIM?",
+      "photo": "https://image.tmdb.org/t/p/w780//qx0gxPMVPwXlHdNe5ves4BaC5Vc.jpg",
+      "link": "https://youtu.be/8z1jaAVHceo",
+      "chapter": "episode 2"     
+    },
+    {
+      "id": 3,
+      "title": "Comedy",
+      "dorama": "FAMILIAR WIFE",   
+      "photo": "https://image.tmdb.org/t/p/w780//b8rplk06QkeqR8wiXKq0yMp3wOC.jpg",
+      "link": "https://youtu.be/PdFgWgjCYPg",
+      "chapter": "episode 1"
+    },
+    {
+      "id": 4,
+      "title": "Drama",
+      "dorama": "A GOOD DAY TO BE A DOG",
+      "photo": "https://image.tmdb.org/t/p/w780//kXd0ZGNYORkncDh1ECFEc17ZICy.jpg",
+      "link": "https://youtu.be/R2f-dmQNnDE",
+      "chapter": "episode 1"
+    },
+    {
+      "id": 5,
+      "title": "Drama",
+      "dorama": "A GOOD DAY TO BE A DOG",
+      "photo": "https://image.tmdb.org/t/p/w780//c4m7X8vPBMgcmDPdrSbp35rm1pI.jpg",
+      "link": "https://youtu.be/GTizmCrJIGg",
+      "chapter": "episode 2"
+    },
+    {
+      "id": 6,
+      "title": "Action",
+      "dorama": "THE CHAIRMAN OF CLASS 9",
+      "photo": "https://image.tmdb.org/t/p/w780//gWlXvKBZdcbz8Q6udQriYE54TId.jpg",
+      "link": "https://youtu.be/XI8pRQLC36Y",
+      "chapter": "episode 1"
+    },
+    {
+      "id": 7,
+      "title": "Comedy", 
+      "dorama": "FAMILIAR WIFE",
+      "photo": "https://image.tmdb.org/t/p/w780//b4cLMbo5hsq1ZhUQY1rc1rZ5u2F.jpg",
+      "link": "https://youtu.be/zztB2l8tswg",
+      "chapter": "episode 2"
+    },
+    {
+      "id": 8,
+      "title": "Romance",
+      "dorama": "WHAT'S WRONG WITH SECRETARY KIM?",
+      "photo": "https://image.tmdb.org/t/p/w780//rNr8sCLyBgXNS2PbfxlbM8ZLwXc.jpg",
+      "link": "https://youtu.be/jOSQnmLydvs",
+      "chapter": "episode 3"
+    },
+    {
+      "id": 9,
+      "title": "Action",
+      "dorama": "THE CHAIRMAN OF CLASS 9",
+      "photo": "https://image.tmdb.org/t/p/w780//sGKXf4lp3Tdbvh4KOlPCE4FR4pf.jpg",
+      "link": "https://youtu.be/un12GhkAnpw",
+      "chapter": "episode 2"
+    },
+    {
+      "id": 10,
+      "title": "Romance",
+      "dorama": "WHAT'S WRONG WITH SECRETARY KIM?",
+      "photo": "https://image.tmdb.org/t/p/w780//9cei7VJYlKrMSmxJGQaKfAA4RIu.jpg",
+      "link": "https://youtu.be/tE92qIUOdTw",
+      "chapter": "episode 4"
+    },
+    {
+      "id": 11,
+      "title": "Drama",
+      "dorama": "A GOOD DAY TO BE A DOG",
+      "photo": "https://image.tmdb.org/t/p/w780//75WK4DDvq5IeuJ0mi5EysfOarQC.jpg",
+      "link": "https://youtu.be/3qdXutIAEJU",
+      "chapter": "episode 3"
+    },
+    {
+      "id": 12,
+      "title": "Comedy",
+      "dorama": "FAMILIAR WIFE",
+      "photo": "https://image.tmdb.org/t/p/w780//uD7SR8ODRZaXLJ93Skll9mmzoY6.jpg",
+      "link": "https://youtu.be/CrYLA9pzDJk",
+      "chapter": "episode 3"
+    }
+  ]
+}
