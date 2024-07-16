@@ -31,9 +31,138 @@
     width: 320px;
     height: 280px;
     flex-direction: column;
-    margin-bottom: 120px;
+    margin-bottom: 90px;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px){
+  .footer {
+    width: 375px;
+    height: 280px;
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px){
+  .footer {
+    width: 414px;
+    height: 280px;
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 415px) and (max-width: 480px){
+  .footer {
+    width: 480px;
+    height: 280px;
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px){
+  .footer {
+    width: 600px;
+    height: 280px;
+    flex-direction: column;
+    margin-bottom: 90px;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 601px) and (max-width: 667px){
+  .footer {
+    width: 667px;
+    height: 280px;
+    flex-direction: column;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 668px) and (max-width: 736px){
+  .footer {
+    width: 736px;
+  }
+  .presentation span {
+    font-size: .8rem;
+  }
+  .footImage {
+    width: 80px;
+    margin-left: 2%;
+  }
+  .logo {
+    width: 90px;
+    height: 50px;
+    margin-left: 1%;
+  }
+}
+@media (min-width: 737px) and (max-width: 768px){
+  .footer {
+    width: 768px;
   }
   .presentation span {
     font-size: 1rem;
+  }
+  .footImage {
+    width: 80px;
+    margin-left: 2%;
+  }
+  .logo {
+    width: 90px;
+    height: 50px;
+    margin-left: 1%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .footer {
+    width: 1024px;
+  }
+  .presentation span {
+    font-size: 1rem;
+  }
+  .footImage {
+    width: 100px;
+    margin-left: 2%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+  .footer {
+    width: 1280px;
   }
 }

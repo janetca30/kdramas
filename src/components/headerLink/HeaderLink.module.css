@@ -33,7 +33,7 @@ nav {
 
 /*Responsive-Mobile*/
 
-@media (min-width: 600px) and (max-width: 667px){
+@media (min-width: 601px) and (max-width: 667px){
   .link {
     width: 8rem;
     font-size: 1.3rem;
@@ -51,7 +51,7 @@ nav {
 @media (min-width: 737px) and (max-width: 768px){
   nav {
     width: 50%;
-    margin-left: 0%;
+    margin-right: -35%;
   }
   .link {
     width: 9rem;
@@ -63,19 +63,19 @@ nav {
 @media (min-width: 769px) and (max-width: 1024px){
   nav {
     width: 50%;
-    margin-left: -25%;
+    margin-left: 0%;
   }
   .link {
     width: 8rem;
     font-size: 18px;
     padding: 0.5rem;
-    margin-left: 0;
+    margin-left: 0%;
   }
 }
 @media (min-width: 1025px) and (max-width: 1280px){
   nav {
     width: 50%;
-    margin-left: -25%;
+    margin-left: 35%;
   }
   .link {
     width: 10rem;

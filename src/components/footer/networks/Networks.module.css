@@ -4,5 +4,24 @@
 }
 
 .item {
-  width: 85%;
+  width: 75%;
+}
+
+@media (min-width: 668px) and (max-width: 736px){
+  .item {
+    width: 65%;
+  }
+  .network {
+    display: flex;
+    margin-left: 5% ;
+  }
+}
+@media (min-width: 737px) and (max-width: 768px){
+  .item {
+    width: 65%;
+  }
+  .network {
+    display: flex;
+    margin-left: 5% ;
+  }
 }

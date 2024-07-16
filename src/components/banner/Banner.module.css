@@ -372,14 +372,14 @@ section.container {
     height: 200px;
   }
 }
-@media (min-width: 481px) and (max-width: 599px){
+@media (min-width: 481px) and (max-width: 600px){
   .banner {
-    width: 599px;
+    width: 600px;
     height: 800px;
     flex-direction: column;
   }
   .container{
-    width: 599px;
+    width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -431,10 +431,10 @@ section.container {
     height: 200px;
   }
 }
-@media (min-width: 600px) and (max-width: 667px){
+@media (min-width: 601px) and (max-width: 667px){
   .banner {
     width: 667px;
-    height: 800px;
+    height: 900px;
     flex-direction: column;
   }
   .container{
@@ -484,7 +484,7 @@ section.container {
   }
   .containerVideo {
     width: 530px;
-    margin-left: -15%;
+    margin-left: 0;
   }
   .video {
     width: 0px;
@@ -545,13 +545,13 @@ section.container {
   }
   .containerVideo {
     width: 620px;
-    margin-left: -13%;
+    margin-left: -1%;
   }
 }
 @media (min-width: 737px) and (max-width: 768px){
   .banner {
     width: 768px;
-    height: 800px;
+    height: 900px;
     flex-direction: column;
   }
   .container{
@@ -601,12 +601,13 @@ section.container {
   }
   .containerVideo {
     width: 630px;
-    margin-left: -15%;
+    margin-left: 0%;
   }
 }
 @media (min-width: 769px) and (max-width: 1024px){
   .banner {
     width: 1024px;
+    height: 500px;
   }
   .container{
     width: 300px;
