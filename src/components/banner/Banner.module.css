@@ -194,6 +194,447 @@ section.container {
   .video {
     width: 0px;
     height: 200px;
-    
+  }
+}
+@media (min-width: 321px) and (max-width: 375px){
+  .banner {
+    width: 375px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:-10%;
+    margin-left: -6rem;
+    width: 18rem;
+    font-size: 1.7rem;
+  }
+  .title {
+    width: 375px;
+    justify-content: center;
+    margin-top: -1.5rem;
+    font-size: 1.6rem;
+    margin-left: -6rem;
+  }
+  .sub {
+    width: 375px;
+    font-size: 1.1rem;
+    margin-top: -.8rem;
+    margin-left: -9rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -6rem;
+    font-size: 1.1rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: -.1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 355px;
+  }
+  .video {
+    width: 0px;
+    height: 200px;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px){
+  .banner {
+    width: 414px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:-10%;
+    margin-left: -6rem;
+    width: 18rem;
+    font-size: 1.7rem;
+  }
+  .title {
+    width: 414px;
+    justify-content: center;
+    margin-top: -1.5rem;
+    font-size: 1.6rem;
+    margin-left: -6rem;
+  }
+  .sub {
+    width: 414px;
+    font-size: 1.1rem;
+    margin-top: -.8rem;
+    margin-left: -9rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -6rem;
+    font-size: 1.1rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: -.1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 375px;
+    margin-left: -5%;
+  }
+  .video {
+    width: 0px;
+    height: 200px;
+  }
+}
+@media (min-width: 415px) and (max-width: 480px){
+  .banner {
+    width: 480px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:-10%;
+    margin-left: -6rem;
+    width: 20rem;
+    font-size: 1.7rem;
+  }
+  .title {
+    width: 480px;
+    justify-content: center;
+    margin-top: -1.5rem;
+    font-size: 1.6rem;
+    margin-left: -6rem;
+  }
+  .sub {
+    width: 430px;
+    font-size: 1.1rem;
+    margin-top: -.8rem;
+    margin-left: -9rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -6rem;
+    font-size: 1.1rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: -.1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 410px;
+    margin-left: -5%;
+  }
+  .video {
+    width: 0px;
+    height: 200px;
+  }
+}
+@media (min-width: 481px) and (max-width: 599px){
+  .banner {
+    width: 599px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 599px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:-10%;
+    margin-left: -6rem;
+    width: 24rem;
+    font-size: 2rem;
+  }
+  .title {
+    width: 480px;
+    justify-content: center;
+    margin-top: -1.5rem;
+    font-size: 1.8rem;
+    margin-left: -6rem;
+  }
+  .sub {
+    width: 480px;
+    font-size: 1.3rem;
+    margin-top: -.8rem;
+    margin-left: -9rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -6rem;
+    font-size: 1.3rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: 1rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: -.1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 480px;
+    margin-left: -5%;
+  }
+  .video {
+    width: 0px;
+    height: 200px;
+  }
+}
+@media (min-width: 600px) and (max-width: 667px){
+  .banner {
+    width: 667px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 667px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:0%;
+    margin-left: -6rem;
+    width: 24rem;
+    font-size: 1.8rem;
+  }
+  .title {
+    width: 667px;
+    justify-content: center;
+    margin-top: 0rem;
+    font-size: 1.8rem;
+    margin-left: -6rem;
+  }
+  .sub {
+    width: 480px;
+    font-size: 1.3rem;
+    margin-top: -.8rem;
+    margin-left: -9rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -6rem;
+    font-size: 1.3rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 530px;
+    margin-left: -15%;
+  }
+  .video {
+    width: 0px;
+    height: 200px;
+  }
+}
+/*Responsive-Tablet*/
+@media (min-width: 668px) and (max-width: 736px){
+  .banner {
+    width: 736px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 736px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:0%;
+    margin-left: -6rem;
+    width: 24rem;
+    font-size: 1.8rem;
+  }
+  .title {
+    width: 667px;
+    justify-content: center;
+    margin-top: 0rem;
+    font-size: 1.8rem;
+    margin-left: -6rem;
+  }
+  .sub {
+    width: 480px;
+    font-size: 1.3rem;
+    margin-top: -.8rem;
+    margin-left: -9rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -6rem;
+    font-size: 1.3rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -5rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 620px;
+    margin-left: -13%;
+  }
+}
+@media (min-width: 737px) and (max-width: 768px){
+  .banner {
+    width: 768px;
+    height: 800px;
+    flex-direction: column;
+  }
+  .container{
+    width: 768px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-top:0%;
+    margin-left: -8rem;
+    width: 28rem;
+    font-size: 1.8rem;
+  }
+  .title {
+    width: 768px;
+    justify-content: center;
+    margin-top: 0rem;
+    font-size: 1.8rem;
+    margin-left: -8rem;
+  }
+  .sub {
+    width: 600px;
+    font-size: 1.3rem;
+    margin-top: -.8rem;
+    margin-left: -12rem;
+  }
+  .button {
+    width: 120px;
+    margin-left: -8rem;
+    font-size: 1.3rem;
+  }
+  .description {
+    width: 250px;
+    height: 5rem;
+    margin-left: -8rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+  .titleDescription {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+  .subDescription {
+    font-size: 1.2rem;
+    margin-top: -.1rem;
+  }
+  .containerVideo {
+    width: 630px;
+    margin-left: -15%;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .banner {
+    width: 1024px;
+  }
+  .container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .name {
+    margin-left: -2rem;
+    width: 20rem;
+    font-size: 1.6rem;
+  }
+  .title {
+    width: 700px;
+    margin-left: -1.5rem;
+  }
+  .sub {
+    width: 450px;
+    margin-left: -5rem;
+  }
+  .button {
+    margin-left: -2rem;
+  }
+  .description {
+    margin-left: -2rem;
+  }
+  .containerVideo {
+    width: 480px;
+    margin-left: -30%;
   }
 }
