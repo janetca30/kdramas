@@ -32,7 +32,7 @@
 .cardImage {
   aspect-ratio: auto;
   width: 100%;
-  height: 100%;
+  max-height: 222px;
   box-shadow: 0 -10px 15px 0 var(--doramaColor);
   object-fit: cover;
   border-radius: 20px 20px 0 0;
@@ -90,6 +90,7 @@ span {
   }
   .cardImage {
     width: 100%;
+    max-height: 240px;
   }
 }
 @media (min-width: 321px) and (max-width: 375px){
@@ -102,6 +103,7 @@ span {
   }
   .cardImage {
     width: 100%;
+    max-height: 241px;
     margin-left: 0;
   }
 }
@@ -116,6 +118,7 @@ span {
   .cardImage {
     width: 100%;
     margin-left: 0;
+    max-height: 241px;
   }
 }
 @media (min-width: 415px) and (max-width: 480px){
@@ -131,6 +134,7 @@ span {
   .cardImage {
     width: 100%;
     margin-left: 0;
+    max-height: 241px;
   }
   .figcaption {
     height: 5rem;
@@ -148,6 +152,7 @@ span {
   }
   .cardImage {
     width: 100%;
+    max-height: 241px;
     margin-left: 0;
   }
   .figcaption {
@@ -166,6 +171,7 @@ span {
   }
   .cardImage {
     width: 100%;
+    max-height:324px;
     margin-left: 0;
   }
   .figcaption {
@@ -184,6 +190,7 @@ span {
   }
   .cardImage {
     width: 100%;
+    max-height: 372.81px;
     margin-left: 0;
   }
 }
@@ -199,6 +206,7 @@ span {
   }
   .cardImage {
     width: 100%;
+    max-height: 378.2px;
     margin-left: 0;
   }
 }
@@ -212,6 +220,11 @@ span {
     width: 460px;
     margin: 2%;
   }
+  .cardImage {
+    width: 100%;
+    max-height: 249px;
+    margin-left: 0;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1280px){
   .cardContainer {
@@ -221,5 +234,10 @@ span {
   }
   .figure {
     width: 460px;
+  }
+  .cardImage {
+    width: 100%;
+    max-height: 241px;
+    margin-left: 0;
   }
 }

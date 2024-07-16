@@ -16,13 +16,14 @@
 }
 
 .newVideoTitle {
-  font-size: 4rem;
+  font-size: 3.8rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  margin-top: -0.8%;
 }
 
 .newVideoDescription {
-  font-size: 1.8rem;
+  font-size: 1.7rem;
   font-weight: 500;
   margin-bottom: 2rem;
   background-color: transparent;
@@ -58,7 +59,7 @@
 }
 
 .sectionOneTitle {
-  font-size: 2.8rem;
+  font-size: 2.3rem;
   font-weight: 700;
   margin-bottom: 1rem;
 }
@@ -72,7 +73,7 @@
   align-items: flex-start;
   align-content: center;
   margin-bottom: 0.4rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
 }
 
@@ -82,11 +83,11 @@
 
 .newVideoFormInput {
   margin-top: 0.5rem;
-  width: 600px;
+  width: 460px;
   padding: 0.8rem;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   border: 3px solid var(--black) !important;
-  border-radius: 20px;
+  border-radius: 15px;
   background-color: transparent;
   margin-bottom: 1rem;
   outline: none;
@@ -173,6 +174,7 @@
   }
   .sectionOneTitle {
     font-size: 2rem;
+    margin-top: -8%;
   }
   .formSection {
     flex-direction: column;
@@ -187,4 +189,274 @@
   .newVideoFormInput {
     width: 290px;
   }
+}
+@media (min-width: 321px) and (max-width: 375px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 375px;
+  }
+  .newVideoTitle {
+    font-size: 2.8rem;
+  }
+  .newVideoDescription {
+    width: 340px;
+    font-size: 1.2rem;
+    margin-left: 3%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 340px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 375px;
+  }
+  .sectionOneTitle {
+    font-size: 2rem;
+    margin-top: -8%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 360px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 330px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 330px;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 414px;
+  }
+  .newVideoTitle {
+    font-size: 2.8rem;
+  }
+  .newVideoDescription {
+    width: 390px;
+    font-size: 1.2rem;
+    margin-left: 2%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 360px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 360px;
+  }
+  .sectionOneTitle {
+    font-size: 2rem;
+    margin-top: -8%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 390px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 360px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 360px;
+  }
+}
+@media (min-width: 415px) and (max-width: 480px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 480px;
+  }
+  .newVideoTitle {
+    font-size: 2.8rem;
+  }
+  .newVideoDescription {
+    width: 460px;
+    font-size: 1.2rem;
+    margin-left: 2%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 430px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 430px;
+  }
+  .sectionOneTitle {
+    font-size: 2rem;
+    margin-top: -8%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 460px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 430px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 430px;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 600px;
+  }
+  .newVideoTitle {
+    font-size: 3rem;
+  }
+  .newVideoDescription {
+    width: 560px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 500px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 500px;
+  }
+  .sectionOneTitle {
+    font-size: 2.5rem;
+    margin-top: -8%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 560px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 530px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 530px;
+  }
+}
+@media (min-width: 601px) and (max-width: 667px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 667px;
+  }
+  .newVideoTitle {
+    font-size: 3rem;
+  }
+  .newVideoDescription {
+    width: 667px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 580px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 600px;
+  }
+  .sectionOneTitle {
+    font-size: 2.5rem;
+    margin-top: -8%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 600px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 560px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 560px;
+  }
+}
+@media (min-width: 668px) and (max-width: 736px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 736px;
+  }
+  .newVideoTitle {
+    font-size: 3rem;
+  }
+  .newVideoDescription {
+    width: 736px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 680px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 700px;
+  }
+  .sectionOneTitle {
+    font-size: 2.5rem;
+    margin-top: -2%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 700px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 660px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 660px;
+  }
+}
+@media (min-width: 737px) and (max-width: 768px){
+  .newVideo, .newVideoContainer, .newVideoHeader {
+    width: 768px;
+  }
+  .newVideoTitle {
+    font-size: 3rem;
+  }
+  .newVideoDescription {
+    width: 768px;
+    font-size: 1.5rem;
+    margin-left: 2%;
+  }
+  .newVideoDropdownList,
+  .newVideoDropdownList:hover {
+    width: 650px;
+  }
+  /* FORM */
+  .newVideoForm {
+    width: 768px;
+  }
+  .sectionOneTitle {
+    font-size: 2.5rem;
+    margin-top: -2%;
+  }
+  .formSection {
+    flex-direction: column;
+    width: 740px;
+  }
+  /* FORM FIELDS */
+  .newVideoFormLabel {
+    width: 710px;
+    flex-wrap: nowrap;
+    font-size: 1.5rem;
+  }
+  .newVideoFormInput {
+    width: 710px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+}
+@media (min-width: 1025px) and (max-width: 1280px){
 }

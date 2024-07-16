@@ -5,7 +5,7 @@
 }
 
 .listOption label {
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 500;
   display: flex;
   justify-content: flex-start;
@@ -13,8 +13,8 @@
 
 .dropdown {
   position: relative;
-  width: 600px;
-  border-radius: 20px;
+  width: 460px;
+  border-radius: 15px;
   border-color: var(--black);
   border: 2px;
 }
@@ -34,7 +34,7 @@
 }
 
 .dropdown .arrowDown {  
-  font-size: 2rem;
+  font-size: 1.4rem;
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -48,7 +48,7 @@
   position: absolute;
   cursor: pointer;
   left: 0;
-  width: 600px;
+  width: 460px;
   z-index: 1000;
   overflow-y: hidden;
   padding: 0.5rem; 
@@ -78,4 +78,106 @@
   .listDropdown {
     width: 290px;
   }
+}
+@media (min-width: 321px) and (max-width: 375px){
+  .listOption label {
+    font-size: 1.5rem;
+  }
+  .dropdown {
+    width: 330px;
+  }
+  .arrowDown {
+    width: 1.8rem;
+  }
+  .listDropdown {
+    width: 330px;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px){
+  .listOption label {
+    font-size: 1.3rem;
+  }
+  .dropdown {
+    width: 360px;
+  }
+  .arrowDown {
+    width: 1.5rem;
+  }
+  .listDropdown {
+    width: 360px;
+  }
+}
+@media (min-width: 415px) and (max-width: 480px){
+  .listOption label {
+    font-size: 1.3rem;
+  }
+  .dropdown {
+    width: 430px;
+  }
+  .arrowDown {
+    width: 1.5rem;
+  }
+  .listDropdown {
+    width: 430px;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px){
+  .listOption label {
+    font-size: 1.3rem;
+  }
+  .dropdown {
+    width: 530px;
+  }
+  .arrowDown {
+    width: 1.5rem;
+  }
+  .listDropdown {
+    width: 530px;
+  }
+}
+@media (min-width: 601px) and (max-width: 667px){
+  .listOption label {
+    font-size: 1.3rem;
+  }
+  .dropdown {
+    width: 560px;
+  }
+  .arrowDown {
+    width: 1.5rem;
+  }
+  .listDropdown {
+    width: 560px;
+  }
+}
+@media (min-width: 668px) and (max-width: 736px){
+  .listOption label {
+    font-size: 1.3rem;
+  }
+  .dropdown {
+    width: 660px;
+  }
+  .arrowDown {
+    width: 1.5rem;
+  }
+  .listDropdown {
+    width: 660px;
+  }
+}
+@media (min-width: 737px) and (max-width: 768px){
+  .listOption label {
+    font-size: 1.3rem;
+  }
+  .dropdown {
+    width: 710px;
+  }
+  .arrowDown {
+    width: 1.5rem;
+  }
+  .listDropdown {
+    width: 710px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+}
+@media (min-width: 1025px) and (max-width: 1280px){
 }

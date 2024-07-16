@@ -58,3 +58,18 @@
   color: var(--blue);
 }
 
+@media (max-width: 320px) {
+  .confirmation {
+    width: 300px;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px){
+  .confirmation {
+    width: 340px;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px){
+  .confirmation {
+    width: 370px;
+  }
+}
