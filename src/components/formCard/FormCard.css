@@ -135,13 +135,255 @@
   color: var(--error) !important;
 }
 
-
 .errorMessage {
   color: var(--error) !important;
   background: var(--greenedit);
   font-size: 0.875rem;
 }
 
-.formInput formList {
+.formInput .formList {
   color: var(--greenedit);
+  font-size: 1rem;
+}
+/*Responsive-Mobile*/
+
+@media (max-width: 320px) {
+  .formContainer{
+    width: 320px;
+    margin-bottom: 30%;
+  }
+  .container {
+    width: 320px;
+    border: 3px solid var(--black);
+    padding: 0rem;
+    max-height: 78.5rem;
+  }
+  .imgClose {
+    top: .5rem;
+    right: .5rem;
+    width: 25px;
+  }
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 200px;
+  }
+  .form {
+    width: 320px;
+    max-width: 200px;
+  }
+  .form label {
+    font-size: 1.2rem;
+    margin-top: -10px;
+  }
+  .formInput {
+    width: 200px;
+    font-size: 1rem;
+    padding: 2px;
+    margin-bottom: .5rem;
+    min-height: 2.5rem;
+    border: 2px solid var(--black);
+  }
+  .input-with-icon .dropdown-icon {
+    width: 25px;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 321px) and (max-width: 375px){
+  .formContainer{
+    width: 375px;
+    margin-bottom: 20%;
+  }
+  .container {
+    width: 375px;
+    border: 3px solid var(--black);
+    padding: 0rem;
+    max-height: 78.5rem;
+  }
+  .imgClose {
+    top: .5rem;
+    right: .5rem;
+    width: 25px;
+  }
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 200px;
+  }
+  .form {
+    width: 375px;
+    max-width: 250px;
+  }
+  .form label {
+    font-size: 1.2rem;
+    margin-top: -10px;
+  }
+  .formInput {
+    width: 250px;
+    font-size: 1rem;
+    padding: 2px;
+    margin-bottom: .5rem;
+    min-height: 2.5rem;
+    border: 2px solid var(--black);
+  }
+  .input-with-icon .dropdown-icon {
+    width: 25px;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 376px) and (max-width: 414px){
+  .formContainer{
+    width: 414px;
+    margin-bottom: 20%;
+  }
+  .container {
+    width: 414px;
+    border: 3px solid var(--black);
+    padding: 0rem;
+    max-height: 78.5rem;
+  }
+  .imgClose {
+    top: .5rem;
+    right: .5rem;
+    width: 25px;
+  }
+  .container h1 {
+    font-size: 1.8rem;
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 200px;
+  }
+  .form {
+    width: 414px;
+    max-width: 280px;
+  }
+  .form label {
+    font-size: 1.2rem;
+    margin-top: -10px;
+  }
+  .formInput {
+    width: 280px;
+    font-size: 1rem;
+    padding: 2px;
+    margin-bottom: .5rem;
+    min-height: 2.5rem;
+    border: 2px solid var(--black);
+  }
+  .input-with-icon .dropdown-icon {
+    width: 25px;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 415px) and (max-width: 480px){
+  .formContainer{
+    width: 480px;
+    margin-bottom: 20%;
+  }
+  .container {
+    width: 480px;
+    border: 3px solid var(--black);
+    padding: 0rem;
+    max-height: 78.5rem;
+  }
+  .imgClose {
+    top: .5rem;
+    right: .5rem;
+    width: 35px;
+  }
+  .container h1 {
+    font-size: 2rem;
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 200px;
+  }
+  .form {
+    width: 480px;
+    max-width: 350px;
+  }
+  .form label {
+    font-size: 1.2rem;
+    margin-top: -10px;
+  }
+  .formInput {
+    width: 350px;
+    font-size: 1rem;
+    padding: 2px;
+    margin-bottom: .5rem;
+    min-height: 2.5rem;
+    border: 2px solid var(--black);
+  }
+  .input-with-icon .dropdown-icon {
+    width: 25px;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 481px) and (max-width: 600px){
+  .formContainer{
+    width: 600px;
+    margin-bottom: 20%;
+  }
+  .container {
+    width: 600px;
+    border: 3px solid var(--black);
+    padding: 0rem;
+    max-height: 78.5rem;
+  }
+  .imgClose {
+    top: .5rem;
+    right: .5rem;
+    width: 35px;
+  }
+  .container h1 {
+    font-size: 2.5rem;
+    margin-left: 15%;
+    margin-top: 40px;
+    width: 300px;
+  }
+  .form {
+    width: 600px;
+    max-width: 480px;
+  }
+  .form label {
+    font-size: 1.5rem;
+    margin-top: -10px;
+  }
+  .formInput {
+    width: 480px;
+    font-size: 1.2rem;
+    padding: 2px;
+    margin-bottom: .5rem;
+    min-height: 2.5rem;
+    border: 2px solid var(--black);
+  }
+  .input-with-icon .dropdown-icon {
+    width: 25px;
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 601px) and (max-width: 667px){
+  .container {
+    width: 667px;
+  }
+}
+@media (min-width: 668px) and (max-width: 736px){
+  .container {
+    width: 736px;
+  }
+}
+@media (min-width: 737px) and (max-width: 768px){
+  .container {
+    width: 768px;
+  }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+  .container {
+    width: 1024px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px){
+  .container {
+    width: 1280px;
+  }
 }

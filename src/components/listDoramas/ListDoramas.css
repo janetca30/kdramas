@@ -67,7 +67,7 @@
 
 @media (max-width: 320px) {
   .listOption label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .dropdown {
     width: 300px;
@@ -76,21 +76,31 @@
     width: 1.8rem;
   }
   .listDropdown {
-    width: 290px;
+    width: 200px;
+    font-size: .65rem;
+  }
+  .dropdown .arrowDown {
+    font-size: 1rem;
+    margin-right: 30%;
+    width: 20px;
+  }
+  .dropdown.open .listDropdown{
+    font-size: 1.2rem;
   }
 }
 @media (min-width: 321px) and (max-width: 375px){
   .listOption label {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
   .dropdown {
-    width: 330px;
+    width: 260px;
   }
   .arrowDown {
     width: 1.8rem;
   }
   .listDropdown {
-    width: 330px;
+    width: 250px;
+    font-size: .75rem;
   }
 }
 @media (min-width: 376px) and (max-width: 414px){
@@ -98,13 +108,14 @@
     font-size: 1.3rem;
   }
   .dropdown {
-    width: 360px;
+    width: 290px;
   }
   .arrowDown {
     width: 1.5rem;
   }
   .listDropdown {
-    width: 360px;
+    width: 280px;
+    font-size: .8rem;
   }
 }
 @media (min-width: 415px) and (max-width: 480px){
@@ -112,13 +123,14 @@
     font-size: 1.3rem;
   }
   .dropdown {
-    width: 430px;
+    width: 360px;
   }
   .arrowDown {
     width: 1.5rem;
   }
   .listDropdown {
-    width: 430px;
+    width: 350px;
+    font-size: 1rem;
   }
 }
 @media (min-width: 481px) and (max-width: 600px){
@@ -126,13 +138,13 @@
     font-size: 1.3rem;
   }
   .dropdown {
-    width: 530px;
+    width: 490px;
   }
   .arrowDown {
     width: 1.5rem;
   }
   .listDropdown {
-    width: 530px;
+    width: 480px;
   }
 }
 @media (min-width: 601px) and (max-width: 667px){
@@ -178,6 +190,9 @@
   }
 }
 @media (min-width: 769px) and (max-width: 1024px){
+  .listDropdown {
+    width: 0px;
+  }
 }
 @media (min-width: 1025px) and (max-width: 1280px){
 }

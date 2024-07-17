@@ -55,6 +55,16 @@
     flex-direction: column;
     align-items: center;
   }
+  .formButton-save,
+  .formButton-cancel {
+    width: 40%;
+    margin-left: -40%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .formButton-cancel {
+    margin-bottom: 20%;
+  }
 }
 @media (min-width: 321px) and (max-width: 375px){
   .newVideoButtons {
@@ -62,6 +72,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .formButton-save,
+  .formButton-cancel {
+    width: 40%;
+    margin-left: -40%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .formButton-cancel {
+    margin-bottom: 20%;
   }
 }
 @media (min-width: 376px) and (max-width: 414px){
@@ -71,6 +91,16 @@
     flex-direction: column;
     align-items: center;
   }
+  .formButton-save,
+  .formButton-cancel {
+    width: 40%;
+    margin-left: -40%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  .formButton-cancel {
+    margin-bottom: 20%;
+  }
 }
 @media (min-width: 415px) and (max-width: 480px){
   .newVideoButtons {
@@ -79,6 +109,10 @@
     flex-direction: column;
     align-items: center;
   }
+  .formButton-save,
+  .formButton-cancel {
+    margin-left: -28%;
+  }
 }
 @media (min-width: 481px) and (max-width: 600px){
   .newVideoButtons {
@@ -86,6 +120,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .formButton-save,
+  .formButton-cancel {
+    margin-left: -20%;
   }
 }
 @media (min-width: 601px) and (max-width: 667px){
